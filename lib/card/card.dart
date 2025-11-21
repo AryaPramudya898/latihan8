@@ -75,14 +75,13 @@ class MyCard extends StatelessWidget {
                     child: Text("Semantic true", style: TextStyle(fontSize: 14.0)),
                       ),
                       ),
-                      Card(
-                      shadowColor: const Color.fromARGB(255, 165, 10, 111),
+                     Card(
+                      shadowColor: const Color.fromARGB(255, 241, 7, 241),
                       child: Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Text("Shadow Color Card", style: TextStyle(fontSize: 14.0)),
                       ),
                       )
-                      
                     
             ],
           ),
