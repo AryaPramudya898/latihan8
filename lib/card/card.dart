@@ -6,7 +6,7 @@ class MyCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Card"), centerTitle: true, actions: []),
+      appBar: AppBar(title: Text("Dashboard Card"), centerTitle: true, actions: []),
       body: Center(
         child: Container(
           child: Column(
@@ -34,6 +34,18 @@ class MyCard extends StatelessWidget {
                         'Container 1',
                       ),
                     ),
+                    SizedBox(height: 20,),
+                    Card(
+                      color: const Color.fromARGB(255, 34, 207, 230),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(16)
+                      ),
+                      child: Padding(
+                        padding: const EdgeInsets.all(8.0),
+                      child: Text("Shape Bingkai persegi panjang", 
+                        style: TextStyle(fontSize: 12.0)),
+                      ),
+                    )
             ],
           ),
         ),
