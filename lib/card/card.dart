@@ -67,6 +67,14 @@ class MyCard extends StatelessWidget {
                   clipBehavior: Clip.antiAlias,
                   child: Text("Antimo", style: TextStyle(fontSize: 14.0)),
                   ),
+                  Card(
+                    semanticContainer: true,
+                    child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text("Semantic true", style: TextStyle(fontSize: 14.0)),
+
+                      ),
+                      )
                     
             ],
           ),
