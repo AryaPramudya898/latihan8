@@ -57,12 +57,16 @@ class MyCard extends StatelessWidget {
                   Card(
                   shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16),
-                  side: BorderSide(color: Colors.red, width: 2),
+                  side: BorderSide(color: const Color.fromARGB(255, 54, 206, 244), width: 2),
                   ),
                   borderOnForeground: true, // false
                   child: Text("Border tidak menimpa konten", style: TextStyle(fontSize: 10.0)),
 
-),
+                  ),
+                  Card(
+                  clipBehavior: Clip.antiAlias,
+                  child: Text("Antimo", style: TextStyle(fontSize: 14.0)),
+                  ),
                     
             ],
           ),
