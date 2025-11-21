@@ -10,7 +10,15 @@ class MyCard extends StatelessWidget {
       body: Center(
         child: Container(
           child: Column(
-            children: [Card(color: Colors.green, child: Text("Card1"))],
+            children: [
+              Card(
+                color: Colors.green, 
+                child: Text("Card1")
+              ),
+              SizedBox(height: 5,),
+              Text("Perbandingan Card dengan Container"),
+              SizedBox(height: 5,)
+            ],
           ),
         ),
       ),
