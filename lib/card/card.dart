@@ -54,6 +54,15 @@ class MyCard extends StatelessWidget {
                    child: Text("Margin Card", style: TextStyle(fontSize: 10.0)),
                   ),
                   ),
+                  Card(
+                  shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(16),
+                  side: BorderSide(color: Colors.red, width: 2),
+                  ),
+                  borderOnForeground: true, // false
+                  child: Text("Border tidak menimpa konten", style: TextStyle(fontSize: 10.0)),
+
+),
                     
             ],
           ),
