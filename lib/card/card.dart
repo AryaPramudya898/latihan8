@@ -45,7 +45,16 @@ class MyCard extends StatelessWidget {
                       child: Text("Shape Bingkai persegi panjang", 
                         style: TextStyle(fontSize: 12.0)),
                       ),
-                    )
+                      
+                    ),
+                    Card(
+                    margin: EdgeInsets.all(16.0),
+                    child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                   child: Text("Margin Card", style: TextStyle(fontSize: 10.0)),
+                  ),
+                  ),
+                    
             ],
           ),
         ),
