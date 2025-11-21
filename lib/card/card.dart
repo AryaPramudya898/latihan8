@@ -68,13 +68,21 @@ class MyCard extends StatelessWidget {
                   child: Text("Antimo", style: TextStyle(fontSize: 14.0)),
                   ),
                   Card(
+                    color: Colors.green,
                     semanticContainer: true,
                     child: Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Text("Semantic true", style: TextStyle(fontSize: 14.0)),
-
+                      ),
+                      ),
+                      Card(
+                      shadowColor: const Color.fromARGB(255, 165, 10, 111),
+                      child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text("Shadow Color Card", style: TextStyle(fontSize: 14.0)),
                       ),
                       )
+                      
                     
             ],
           ),
