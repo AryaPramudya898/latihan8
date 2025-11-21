@@ -17,7 +17,23 @@ class MyCard extends StatelessWidget {
               ),
               SizedBox(height: 5,),
               Text("Perbandingan Card dengan Container"),
-              SizedBox(height: 5,)
+              SizedBox(height: 5,),
+              Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(12),
+                        color: const Color.fromARGB(255, 54, 244, 98),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black,
+                            blurRadius: 10,
+                            offset: Offset(0, 4)
+                          )
+                        ]
+                      ),
+                      child: Text(
+                        'Container 1',
+                      ),
+                    ),
             ],
           ),
         ),
